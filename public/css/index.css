@@ -1,0 +1,24 @@
+.blue-bgk{
+    background-color: #418CFF;
+    height: 50vh;
+    padding-top: 15vh;
+}
+.logo{
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    font-size: 64px;
+}
+
+.search-input{
+    padding-left: 20px;
+    height: 75px;
+    font-size: 40px;
+}
+#basic-addon1{
+    background-color: #fff;
+    border: 0px;
+}
+.input-group{
+    margin-top: 50px;
+    width: 800px;
+}

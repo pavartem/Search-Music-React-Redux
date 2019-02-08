@@ -11,7 +11,7 @@ import {Provider} from 'react-redux'
 
 import reducers from 'reducers'
 import Layout from 'containers/layout'
-import Phones from 'containers/phones'
+import Search from 'containers/search'
 
 const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
@@ -23,7 +23,7 @@ ReactDOM.render(
     <Provider store={store}>
         <Router history={history}>
             <Route component={Layout}>
-                <Route path='/' component={Phones} />
+                <Route path='/' component={Search} />
             </Route>
         </Router>
     </Provider>,
