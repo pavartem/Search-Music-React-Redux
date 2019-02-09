@@ -1,7 +1,15 @@
-.blue-bgk{
-    background-color: #418CFF;
-    height: 50vh;
-    padding-top: 15vh;
+body{
+    background-color: #fbfbfb;
+
+    background-repeat: no-repeat;
+
+}
+
+#root{
+    /*background-image: linear-gradient(to right top, #d65db1, #ff6e91, #ff9671, #ffc75f, #f9f871);*/
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    height: 2200px;
+    padding-top: 100px;
 }
 .logo{
     font-family: 'Nunito', sans-serif;
@@ -13,6 +21,8 @@
     padding-left: 20px;
     height: 75px;
     font-size: 40px;
+    border-radius: 50px;
+    padding-left: 50px;
 }
 #basic-addon1{
     background-color: #fff;
@@ -23,5 +33,17 @@
     width: 800px;
 }
 .result-list{
+    width: 1000px;
+}
+
+.custom-card{
     width: 800px;
+    color: #fff;
+    background-color: #86A8E7;
+    /*border-top: 1px solid #ff6c6f;*/
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.15);
+}
+
+.hvr-sweep-to-right:before {
+    background: #BA83CA;
 }
